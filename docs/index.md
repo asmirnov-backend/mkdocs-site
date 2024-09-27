@@ -2,6 +2,8 @@
 
 Text for test
 
+Для автодеплоя можно действовать по инструкции [Deploy static content to Pages](https://github.com/asmirnov-backend/mkdocs-site/actions/runs/11074522346)
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
