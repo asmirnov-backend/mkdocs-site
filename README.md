@@ -1,4 +1,4 @@
-# mkdocs-site
+# Pet статически генерируемый сайт из Markdown файлов
 
 Full documentation [mkdocs.org](https://www.mkdocs.org).
 

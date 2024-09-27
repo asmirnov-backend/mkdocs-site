@@ -21,4 +21,4 @@ Text for test
 
 ## Проверка картинки
 
-![picture](./public/python.jpg)
+![picture](./img/python.jpg)
