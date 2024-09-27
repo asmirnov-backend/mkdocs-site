@@ -1,1 +1,4 @@
 site_name: Andrews Docs
+nav:
+  - Home: index.md
+  - About: about.md
