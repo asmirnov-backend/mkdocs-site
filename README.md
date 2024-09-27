@@ -10,6 +10,10 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
+## See
+
+При коммите в main сайт будет автоматически обновляться https://asmirnov-backend.github.io/mkdocs-site/
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.

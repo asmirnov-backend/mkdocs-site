@@ -4,6 +4,8 @@ Text for test
 
 Для автодеплоя можно действовать по инструкции [Deploy static content to Pages](https://github.com/asmirnov-backend/mkdocs-site/actions/runs/11074522346)
 
+При коммите в main сайт будет автоматически обновляться https://asmirnov-backend.github.io/mkdocs-site/
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
