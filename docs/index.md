@@ -1,14 +1,6 @@
-# mkdocs-site
+# Как сделать свой статический сайт с генерацией страниц из MarkDown файлов
 
-Full documentation [mkdocs.org](https://www.mkdocs.org).
-
-## Install
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip3 install -r requirements.txt
-```
+Text for test
 
 ## Commands
 
@@ -23,3 +15,8 @@ pip3 install -r requirements.txt
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+## Проверка картинки
+
+![picture](./public/python.jpg)
