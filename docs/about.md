@@ -2,7 +2,7 @@
 
 Some text about me
 
-# Попробуйте страницу 404 [404 page](https://asmirnov-backend.github.io/mkdocs-site/404)
+## Попробуйте страницу [404](https://asmirnov-backend.github.io/mkdocs-site/404)
 
 ## План рассказа о себе
 Вот универсальный шаблон, который подойдет для выступления или составления текста о себе на английском языке: 
