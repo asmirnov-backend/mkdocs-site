@@ -2,7 +2,7 @@
   "private": false,
   "scripts": {
     "test": "editorconfig-checker",
-    "html": "html-minifier --remove-comments --collapse-whitespace --input-dir site --output-dir site --file-ext html"
+    "html-minifier": "html-minifier --remove-comments --collapse-whitespace --input-dir site --output-dir site --file-ext html"
   },
   "devDependencies": {
     "editorconfig-checker": "^3.1.0",
