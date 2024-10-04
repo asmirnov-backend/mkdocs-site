@@ -1,5 +1,20 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html>
 
-{% block htmltitle %}
-<footer>Made with love by Andrew</title>
-    {% endblock %}
+<head>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+    {%- for path in config.extra_css %}
+    <link href="{{ path | url }}" rel="stylesheet">
+    {%- endfor %}
+</head>
+
+<body>
+    {{ page.content }}
+
+    {%- for script in config.extra_javascript %}
+    {{ script | script_tag }}
+    {%- endfor %}
+    <footer>Made with love by Andrew</title>
+</body>
+
+</html>
