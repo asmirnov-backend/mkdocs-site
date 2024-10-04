@@ -41,6 +41,15 @@ jobs:
         run: pip install mkdocs
       - name: Build
         run: mkdocs build
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 20.x
+      - name: Install npm packages
+        run: npm ci
+      - name: Tests
+        run: npm run test
+      - name: Minifie html
+        run: npm run html-minifier
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
