@@ -3,7 +3,7 @@
   "scripts": {
     "test": "editorconfig-checker",
     "html-minifier": "html-minifier --remove-comments --collapse-whitespace --input-dir site --output-dir site --file-ext html",
-    "styles": "postcss custom_theme/styles/index.css --use postcss-import --use postcss-csso --no-map --output custom_theme/index.css"
+    "styles": "postcss custom_theme/styles/index.css --use postcss-import --use postcss-csso --no-map --output custom_theme/style.css"
   },
   "devDependencies": {
     "editorconfig-checker": "^3.1.0",
