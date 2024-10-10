@@ -48,6 +48,8 @@ jobs:
         run: npm ci
       - name: Tests
         run: npm run test
+      - name: postcss
+        run: npm run styles
       - name: Minifie html
         run: npm run html-minifier
       - name: Upload artifact
