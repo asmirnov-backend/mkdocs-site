@@ -2,10 +2,14 @@
   "private": false,
   "scripts": {
     "test": "editorconfig-checker",
-    "html-minifier": "html-minifier --remove-comments --collapse-whitespace --input-dir site --output-dir site --file-ext html"
+    "html-minifier": "html-minifier --remove-comments --collapse-whitespace --input-dir site --output-dir site --file-ext html",
+    "styles": "postcss custom_theme/styles/index.css --use postcss-import --use postcss-csso --no-map --output custom_theme/index.css"
   },
   "devDependencies": {
     "editorconfig-checker": "^3.1.0",
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "postcss-cli": "^7.1.1",
+    "postcss-csso": "^4.0.0",
+    "postcss-import": "^12.0.1"
   }
 }
